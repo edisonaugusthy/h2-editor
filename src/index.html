@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <title>my-editor</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-div" onkeyup="compileToHtml()" onpaste="renderPaste(event)" contenteditable>
+        </div>
+        <iframe class="frame-div">
+        </iframe>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
