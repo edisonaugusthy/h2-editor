@@ -36,13 +36,6 @@ function createWindow() {
             label: 'Menu',
             submenu: [
                 {
-                    label: 'Broeser View',
-                    click() {
-                        shell.openExternal('http://coinmarketcap.com')
-                    }
-                },
-                { type: 'separator' },
-                {
                     label: 'Exit',
                     click() {
                         app.quit()
